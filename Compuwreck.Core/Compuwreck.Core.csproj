@@ -46,12 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Infrastructure\Model\PagedList.cs" />
+    <Compile Include="Infrastructure\Persistence\IRepository.cs" />
+    <Compile Include="Model\CompuwreckContext.cs" />
     <Compile Include="Model\County.cs" />
     <Compile Include="Model\Event.cs" />
     <Compile Include="Model\Location.cs" />
     <Compile Include="Model\Photo.cs" />
     <Compile Include="Model\Reference.cs" />
     <Compile Include="Model\Shipwreck.cs" />
+    <Compile Include="Persistance\EntityFramework\EntityFrameworkRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -60,7 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ApplicationServices\" />
-    <Folder Include="Infrastructure\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
