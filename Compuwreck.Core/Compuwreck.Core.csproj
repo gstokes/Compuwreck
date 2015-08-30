@@ -46,8 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\County.cs" />
+    <Compile Include="Model\Event.cs" />
     <Compile Include="Model\Location.cs" />
     <Compile Include="Model\Photo.cs" />
+    <Compile Include="Model\Reference.cs" />
     <Compile Include="Model\Shipwreck.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
